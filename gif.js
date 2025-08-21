@@ -1,8 +1,8 @@
-const gifBtn = document.getElementById('gif-btn');
-const popup = document.getElementById('popup');
-const searchForm = document.getElementById('search-form');
+const gifBtn = document.querySelector('.gif-btn');
+const popup = document.querySelector('.popup');
+const searchForm = document.querySelector('.search-form');
 const searchInput = document.querySelector('.search-input');
-const resultsDiv = document.getElementById('results');
+const resultsDiv = document.querySelector('.results');
 
 const limits = 24;
 const apiKey = 'AIzaSyBUZ5Z6Tx_Yeffgi9Jdd_elJ7gOcR8hPtY';
